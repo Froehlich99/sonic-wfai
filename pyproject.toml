@@ -1,0 +1,10 @@
+[project]
+name = "wfai-rl"
+version = "0.1.0"
+description = "A reinforcement learning implementation for Sonic vs Knuckles using Stable Retro."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "stable-baselines3[extra]>=2.6.0",
+    "stable-retro>=0.9.5",
+]
