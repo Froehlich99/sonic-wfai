@@ -36,5 +36,5 @@ python train_sonic.py
 ### Recording / Viewing Gameplay
 
 ```bash
-python record_sonic_bk2.py
+python record.py
 ```
