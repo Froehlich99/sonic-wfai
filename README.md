@@ -33,7 +33,7 @@ pip install -r requirements.txt
 python train_sonic.py
 ```
 
-### Recording Gameplay
+### Recording / Viewing Gameplay
 
 ```bash
 python record_sonic_bk2.py
