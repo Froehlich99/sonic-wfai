@@ -25,6 +25,11 @@ uv sync
 pip install -r requirements.txt
 ```
 
+After installing stable-retro, import the rom:
+```bash
+python -m retro.import ./rom
+```
+
 ## 🚀 Usage
 
 ### Training
