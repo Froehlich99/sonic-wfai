@@ -35,7 +35,7 @@ python -m retro.import ./rom
 ### Training
 
 ```bash
-python train_sonic.py
+python training.py
 ```
 
 ### Recording / Viewing Gameplay
