@@ -38,8 +38,10 @@ CLIP_RANGE = 0.1
 def make_env(game, state, seed=0, monitor_log_dir=None, render_mode=None):
     """Create a wrapped environment with simplified recording logic"""
     # Create environment
-    # Note that the reward is defined and adjusted in .venv/lib/python3.10/site-packages/retro/data/stable/SonicAndKnuckles-Genesis/scenario.json
-    env = retro.make(game=game, state=state, render_mode=render_mode)
+    # Reward is defined in ./scenario.json
+    env = retro.make(
+        game=game, state=state, render_mode=render_mode, scenario="./scenario.json"
+    )
 
     # Apply standard wrappers
     env = MaxAndSkipEnv(env, skip=4)

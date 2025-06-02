@@ -1,0 +1,17 @@
+{
+  "crop": [0, 0, 0, 0],
+  "done": {
+    "variables": {
+      "lives": {
+        "op": "zero"
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "score": { "reward": 5.0 },
+      "rings": { "reward": 0.5, "type": "delta" },
+      "x": { "reward": 1.0, "type": "delta" }
+    }
+  }
+}
