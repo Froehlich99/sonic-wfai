@@ -7,6 +7,8 @@ _Agent playing Sonic after 1 million training steps_
 
 This project trains an AI agent to play Sonic the Hedgehog using Proximal Policy Optimization (PPO) from Stable Baselines3. The agent was trained for 1 million timesteps on the Sonic and Knuckles Genesis game.
 
+A video of an unedited run with three lives can be found [here](recordings_sonic_knuckles/output.mp4)
+
 ## 📦 Installation
 
 This project uses python 3.10
